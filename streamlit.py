@@ -4,7 +4,7 @@
 # Short explanation (2–3 sentences) within the app describing your findings
 # Optional: Add filters or sliders for exploring different years or hospitals.
 
-import deaths_by_clinic.streamlit as st
+import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
