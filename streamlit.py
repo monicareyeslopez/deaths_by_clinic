@@ -4,12 +4,6 @@
 # Short explanation (2–3 sentences) within the app describing your findings
 # Optional: Add filters or sliders for exploring different years or hospitals.
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load the dataset
-df = pd.read_csv('yearly_deaths_by_clinic-1.csv')
 
 
 # ----
@@ -139,4 +133,3 @@ st.info(
 # ── Raw data expander ─────────────────────────────────────────────────────────
 with st.expander("📋 View raw data"):
     st.dataframe(filtered.reset_index(drop=True), use_container_width=True)
-    
