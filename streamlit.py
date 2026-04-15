@@ -25,6 +25,8 @@ st.markdown(
     mandated that doctors wash their hands with chlorinated lime solution before delivering
     babies — and deaths plummeted almost immediately.  
     This app explores that data and the life-saving impact of his intervention.
+
+    Authors: Monica Reyes-Lopez, and Xavier Alonso
     """
 )
 st.divider()
